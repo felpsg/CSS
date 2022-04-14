@@ -1,0 +1,119 @@
+body {
+  background-color: #fcfcfc;
+  color: #db6363;
+  text-align: center;
+}
+
+header {
+  margin-bottom: -20px;
+  display: inline-block;
+}
+
+.title {
+  margin: auto;
+  color: #dc6363;
+  font-family: Poppins;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.banner {
+  padding: 3%;
+  background-color: #db6363;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 3.7px;
+}
+
+p,
+.banner-contents {
+  max-width: 80%;
+  margin: auto;
+}
+
+img {
+  height: 5em;
+  margin-left: 75px;
+}
+
+.about {
+  background-color: #f0f0f0;
+  display: grid;
+}
+
+.text {
+  color: #2f2d2d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.grid {
+  grid-template-rows: 5% 30% 10% reapet(3, 10%) 20% 5% / 100%;
+  grid-template-columns: 100%;
+  grid-row-gap: 20px;
+}
+
+.box {
+  background-color: #2f2f2f;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-align: center !important;
+  grid-column: 1 / 7;
+}
+
+.address {
+  grid-row: 4 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.hours {
+  grid-row: 5 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.call-us {
+  grid-row: 6 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.icon {
+  height: 80px;
+  margin: auto;
+}
+
+.testimonial {
+  background-color: #f0f0f0;
+  color: #db6363;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 3.7px;
+  display: grid;
+}
+
+.one {
+  grid-row: 7 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.two {
+  grid-row: 8 / span 1;
+  grid-column: 1 / span 1;
+}
+
+footer {
+  background-color: #db6363;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  display: grid;
+}
