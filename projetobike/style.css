@@ -93,6 +93,11 @@ h1 {
   right: -30px;
 }
 
+.introducao-cover img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .botao {
   font-size: 1rem;
   background: #e21;
@@ -114,6 +119,7 @@ h1 {
   padding: 40px;
   align-self: center;
   background-image: url("./img/onda.svg");
+  /*word-break: break-all;*/
 }
 
 .vantagens {
@@ -146,4 +152,42 @@ h1 {
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1000px) {
+  .conteudo-vantagens {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .header {
+    gap: 30px;
+  }
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
+  .introducao:before {
+    display: none;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 2rem;
+  }
 }
