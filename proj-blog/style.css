@@ -57,8 +57,7 @@ ul {
 }
 
 .primary-text-color {
-  /* Set color to a new value with at least 3:1 contrast ratio */
-  color: #cccccc;
+  color: #bdbdbd;
 }
 
 .secondary-text-color {
@@ -262,16 +261,12 @@ ul {
 }
 
 .summary {
-  /* Change font-size below to be between 18 to 20 pixels */
-  font-size: 12px;
-  /* Set line-height to 1.5 */
-
-  /* Set letter-spacing to 1.2 */
-
-  /* Change text-align to left */
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 1.2;
   text-align: justify;
-
   overflow: hidden;
+  text-align: left;
 }
 
 .btn {
@@ -315,9 +310,9 @@ ul {
 }
 
 a:hover {
-  /* Set links to change color when they are hovered over */
-
-  /* Set cursor to pointer */
+  color: rgb(255, 0, 225);
+  cursor: pointer;
+  cursor: auto;
 }
 
 .spotlight-item-sm {
@@ -330,11 +325,12 @@ nav select {
 
 input:focus {
   outline: none;
-  /* Set solid border of size 1px and of a color of your choice */
+  border: solid 1px yellow;
+  border-radius: 4px;
 }
 
 .premium {
-  /* Hide premium content */
+  display: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -371,8 +367,7 @@ input:focus {
 
   .spotlight-list {
     display: flex;
-    /* Change flex-direction to match HTML content order */
-    flex-direction: column-reverse;
+    flex-direction: row-reverse !important;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -394,5 +389,11 @@ input:focus {
 
   .spotlight-item-sm .content-item-info {
     background-color: #fff;
+  }
+}
+
+@media print {
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
   }
 }
