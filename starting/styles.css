@@ -49,19 +49,19 @@ li {
 
 .descricao-titulo {
   color: yellow;
-  padding-left: 20px;
-  margin-bottom: 20px;
+  padding-left: 1.25rem;
+  margin-bottom: 1.25rem;
   font-size: 2rem;
 }
 
 .descricao {
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .descricao-p,
 p {
   color: #ffffff;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .fotos img {
@@ -71,32 +71,32 @@ p {
 
 .fotos {
   margin-top: 5.125rem;
-  margin-bottom: 87px;
+  margin-bottom: 5.438rem;
 }
 
 .text-motivation {
-  padding-top: 60px;
+  padding-top: 3.75rem;
   background-color: #008080;
   text-align: left;
-  padding-bottom: 110px;
+  padding-bottom: 6.875rem;
 }
 
 .motivation-h1 {
   color: #ffff00;
-  padding-bottom: 46px;
-  margin-left: 20px;
+  padding-bottom: 2.875rem;
+  margin-left: 1.25rem;
 }
 
 .motivation-p {
   color: #ffff00;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .d-corrida {
   text-align: center;
-  margin-top: 96px;
+  margin-top: 6rem;
   color: #ffff00;
-  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
 }
 
 .c-1 img {
@@ -109,8 +109,8 @@ p {
 .m-1 {
   color: #ffff00;
   text-align: center;
-  margin-top: 34px;
-  margin-bottom: 40px;
+  margin-top: 2.125rem;
+  margin-bottom: 2.5rem;
 }
 
 @media (max-width: 1048px) {
