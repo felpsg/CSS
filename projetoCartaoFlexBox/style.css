@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.photo {
+  margin: 20px auto;
+  width: 416px;
+  height: 640px;
+  background: url("https://images.unsplash.com/photo-1539888955004-e113c5428a50?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c6332fe301844bfb4e201cf8714b3e6&w=1000&q=80")
+    top center no-repeat;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  color: #777;
+  fill: currentcolor;
+  border: 1px solid transparent;
+  background-color: hsla(0, 0%, 100%, 0.85);
+  border-radius: 4px;
+  padding: 0 11px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+svg {
+  width: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top svg {
+  margin-right: 5px;
+}
+
+.like-button {
+  margin-right: 10px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 32px;
+  margin-right: 10px;
+}
+
+.photographer-name {
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.photographer {
+  display: flex;
+  align-items: center;
+}
